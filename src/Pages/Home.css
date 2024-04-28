@@ -29,3 +29,6 @@ header {
   z-index: -1;
   transform: translateZ(-10px) scale(2);
 }
+.wrapper-scene {
+  display: flex;
+}

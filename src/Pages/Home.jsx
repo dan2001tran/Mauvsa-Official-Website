@@ -17,9 +17,11 @@ const Home = () => {
           MID-ATLANTIC UNION OF VIETNAMESE STUDENT ASSOCIATIONS
         </a>
       </header>
-      <CultureScene />
-      <LeadershipScene />
-      <Networking />
+      <div className="wrapper-scene">
+        <CultureScene />
+        <LeadershipScene />
+        <Networking />
+      </div>
     </div>
   );
 };

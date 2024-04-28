@@ -5,9 +5,14 @@
   background-color: white;
 }
 .cultural-title-container {
+  width: 800px;
+  height: 100px;
   display: flex;
   text-align: left;
-  padding-left: 15%;
+  margin-left: 15%;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
 }
 .cultural-title-text {
   width: 100%;
@@ -16,7 +21,10 @@
 }
 .cultural-container {
   display: flex;
+  height: 100%;
   justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #83a5a3, white);
 }
 .cultural {
   display: flex;
