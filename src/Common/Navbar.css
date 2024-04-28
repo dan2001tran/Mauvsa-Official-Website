@@ -1,0 +1,121 @@
+.navbar {
+  background-color: white;
+  color: black;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+  transition: background-color 0.3s ease;
+}
+.navbar.scrolled {
+  background-color: #83a5a3; /* replace with your desired color */
+  transition: background-color 0.3s ease;
+}
+.navbar a {
+  /* rest of your styles */
+  position: relative;
+  font-weight: 600 ;
+}
+
+.navbar a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2.5px;
+  background-color: black;
+  transition: width 0.3s ease;
+}
+
+.navbar li.contact a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2.5px;
+  background-color: white;
+  transition: width 0.3s ease;
+}
+
+.navbar a:hover::after {
+  width: 100%;
+}
+
+.navbar.hovered {
+  background: linear-gradient(to right, #83a5a3, white);
+  transition: background 0.5s ease;
+}
+
+.navbar.hovered a {
+  color: black; /* replace with your desired color */
+  transition: color 0.3s ease;
+}
+
+.logo-container {
+  position: relative;
+  height: 40px; /* adjust as needed */
+  width: 40px; /* adjust as needed */
+}
+
+.logo,
+.hover-logo {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transition: opacity 0.3s ease;
+}
+
+.hover-logo {
+  opacity: 0;
+}
+
+.navbar:hover .logo {
+  opacity: 0;
+}
+
+.navbar:hover .hover-logo {
+  opacity: 1;
+}
+
+.navbar .menu li.contact {
+  border: 2px solid #83a5a3; 
+  background-color: #83a5a3;
+  border-radius: 10px;
+}
+
+.navbar .menu li.contact a {
+  color: white;
+  font-weight: 700;
+}
+
+.navbar:hover .menu li.contact {
+  background-color: white;
+  color: white;
+  transition: color 0.3s ease;
+  transition: background-color 0.3s ease;
+}
+
+.navbar:hover .menu li.contact a {
+  color: black;
+  font-weight: 700;
+  transition: color 0.3s ease, font-weight 0.3s ease;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.menu li {
+  list-style: none;
+  padding: 7px 12px;
+}
+
+.menu a {
+  color: black;
+  text-decoration: none;
+}
+

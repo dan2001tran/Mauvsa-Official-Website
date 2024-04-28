@@ -1,0 +1,24 @@
+header {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    transform-style: preserve-3d;
+    z-index: -1;
+  }
+  
+  .title {
+    padding: 10rem;
+    font-size: 5rem;
+    font-weight: 600;
+    color: white;
+  }
+  .test1 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+    transform: translateZ(-10px) scale(2);
+  }
