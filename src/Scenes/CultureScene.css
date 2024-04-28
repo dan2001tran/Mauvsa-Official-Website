@@ -1,21 +1,22 @@
 .wrapper {
-    height: 40vh;
-    width: 100%;
-  }
-.cultural-title {
-width: 100%;
-font-size: 4rem;
-font-weight: 600;
+  height: 700px;
+  width: 100%;
+  background-color: white;
 }
-.cultural-container{
-display: flex;
-justify-content: center;
+.cultural-title {
+  width: 100%;
+  font-size: 4rem;
+  font-weight: 600;
+}
+.cultural-container {
+  display: flex;
+  justify-content: center;
 }
 .cultural {
-display: flex;
-align-items: center;
-justify-content: center;
-width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1200px;
 }
 
 .cultural-text {
@@ -28,32 +29,30 @@ width: 1200px;
 }
 
 .cultural-info-container {
-width: 50%;
-display: flex;
-font-size: 19px;
-font-weight: 500;
-flex-direction: column;
-order: 1;
-margin-left: 10px;
+  width: 50%;
+  display: flex;
+  font-size: 19px;
+  font-weight: 500;
+  flex-direction: column;
+  order: 1;
+  margin-left: 10px;
 }
 .cultural-info-container img {
-width: 15%;
-height: 80%;
-
+  width: 15%;
+  height: 80%;
 }
 .cultural-info-section {
   display: flex;
   align-items: center;
   border-radius: 10px;
-background-color: #83a5a3; 
-box-shadow: 0 4px 8px 2px rgba(0,0,0,0.2);
-color:white;
-  }
-  .cultural-info-section:nth-child(2),
-  .cultural-info-section:nth-child(3) {
-    margin-top:10px ; 
-  }
-
+  background-color: #83a5a3;
+  box-shadow: 0 4px 8px 2px rgba(0, 0, 0, 0.2);
+  color: white;
+}
+.cultural-info-section:nth-child(2),
+.cultural-info-section:nth-child(3) {
+  margin-top: 10px;
+}
 
 .cultural-pic {
   width: 50%;
