@@ -1,9 +1,15 @@
 .wrapper {
+  padding-top: 1rem;
   height: 700px;
   width: 100%;
   background-color: white;
 }
-.cultural-title {
+.cultural-title-container {
+  display: flex;
+  text-align: left;
+  padding-left: 15%;
+}
+.cultural-title-text {
   width: 100%;
   font-size: 4rem;
   font-weight: 600;
@@ -56,9 +62,11 @@
 
 .cultural-pic {
   width: 50%;
+  border-radius: 10px;
 }
 .cultural-pic img {
   width: 100%;
+  border-radius: 10px;
   object-fit: fill;
 }
 

@@ -3,6 +3,7 @@ import './Home.css';
 import CultureScene from '../Scenes/CultureScene';
 import LeadershipScene from '../Scenes/Leadership';
 import MacGroup from '../assets/macgroup.jpg';
+import Networking from '../Scenes/Networking';
 const Home = () => {
   return (
     <div className="parralax-wrapper">
@@ -13,11 +14,12 @@ const Home = () => {
           className="landing-image"
         />
         <a className="landing-image-title">
-          MID-ATLANTIC UNION OF VIETNAMESE STUDENT ASSOCIATION
+          MID-ATLANTIC UNION OF VIETNAMESE STUDENT ASSOCIATIONS
         </a>
       </header>
       <CultureScene />
       <LeadershipScene />
+      <Networking />
     </div>
   );
 };
