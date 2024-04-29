@@ -6,8 +6,6 @@ import React from "react";
 
 const LeadershipScene = () => {
     return (
-        <div>
-       
       <div className="values-wrapper">
         <div className="leadershipt-title-container">
           <a className="leadership-title">LEADERSHIP</a>
@@ -86,7 +84,6 @@ const LeadershipScene = () => {
           </div>
         </div>
         </div>
-      </div>
       </div>
     );
 

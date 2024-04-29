@@ -31,4 +31,5 @@ header {
 }
 .wrapper-scene {
   display: flex;
+  flex-direction:column ;
 }

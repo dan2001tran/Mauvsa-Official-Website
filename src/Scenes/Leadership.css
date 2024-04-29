@@ -4,9 +4,8 @@
   align-items: center;
   background-color: #83a5a3;
   padding-top: 2rem;
-  clear: both;
+  margin-top: 2rem;
 }
-
 .leadershipt-title-container {
   display: flex;
   justify-content: flex-end;
@@ -15,7 +14,7 @@
   margin-right: auto;
 }
 .leadership-title {
-  position: static;
+  position: relative;
   font-size: 4rem;
   font-weight: 600;
   right: 0;
