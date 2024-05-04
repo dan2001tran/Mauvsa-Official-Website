@@ -66,6 +66,9 @@
 }
 
 .leadership-panel {
+  
+  position: relative;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   width: 33%;
@@ -77,6 +80,34 @@
   box-shadow: 0 4px 8px 2px rgba(0, 0, 0, 0.2);
 }
 
+.leadership-panel::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(5px);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.leadership-panel:hover::before {
+  opacity: 1;
+}
+
+.leadership-panel .leadership-words {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.leadership-panel:hover .leadership-words {
+  opacity: 1;
+}
 .proffessional-pic {
   width: 600px;
   height: 400px;
@@ -97,7 +128,7 @@
   font-size: 2rem;
   font-weight: 600;
 }
-.leadership-words {
+.leadership-text {
   display: flex;
   padding: 2rem;
   width: 100%;

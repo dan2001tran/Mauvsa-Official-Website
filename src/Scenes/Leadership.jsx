@@ -24,13 +24,13 @@ const LeadershipScene = () => {
               viewport={{ once: true, amount: 0.5 }}
               transition={{ duration: 0.5 }}
               variants={{
-                hidden: { opacity: 0, x: -200 },
+                hidden: { opacity: 0, x: -100 },
                 visible: { opacity: 1, x: 0 },
               }}
             >
               <img src={require('../assets/tyler.jpg')} />
             </motion.div>
-            <div className="leadership-words">
+            <div className="leadership-text">
               <a className="leadership-image-title"> Tyler Sammay</a>
               <a className="leadership-image-title-caption">
                 Executive Director of MAC XI
@@ -46,13 +46,13 @@ const LeadershipScene = () => {
               viewport={{ once: true, amount: 0.5 }}
               transition={{ duration: 0.5, delay: 0.5 }}
               variants={{
-                hidden: { opacity: 0, x: -200 },
+                hidden: { opacity: 0, x: -100 },
                 visible: { opacity: 1, x: 0 },
               }}
             >
               <img src={require('../assets/annie.jpg')} />
             </motion.div>
-            <div className="leadership-words">
+            <div className="leadership-text">
               <a className="leadership-image-title"> Annie Tran</a>
               <a className="leadership-image-title-caption">
                 Registration Director of MAC XI
@@ -68,13 +68,18 @@ const LeadershipScene = () => {
               viewport={{ once: true, amount: 0.5 }}
               transition={{ duration: 0.5, delay: 1 }}
               variants={{
-                hidden: { opacity: 0, x: -200 },
+                hidden: { opacity: 0, x: -100 },
                 visible: { opacity: 1, x: 0 },
               }}
             >
               <img src={require('../assets/christine.jpg')} />
             </motion.div>
             <div className="leadership-words">
+              <a>
+                test test test test test test test test test test test test test test
+              </a>
+            </div>
+            <div className="leadership-text">
               <a className="leadership-image-title"> Christine Chang</a>
               <a className="leadership-image-title-caption">
                 Executive Director of MAC X
