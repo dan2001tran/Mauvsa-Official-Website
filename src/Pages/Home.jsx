@@ -4,6 +4,7 @@ import CultureScene from '../Scenes/CultureScene';
 import LeadershipScene from '../Scenes/Leadership';
 import MacGroup from '../assets/macgroup.jpg';
 import SocialJustice from '../Scenes/SocialJustice';
+import Footer from '../Scenes/Footer';
 const Home = () => {
   return (
     <div className="parralax-wrapper">
@@ -21,6 +22,7 @@ const Home = () => {
         <CultureScene />
         <LeadershipScene />
         <SocialJustice />
+        <Footer />
       </div>
     </div>
   );
